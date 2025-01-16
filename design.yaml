@@ -1,0 +1,20 @@
+pages:
+  pipelines:
+    edit:
+      buttons:
+        block:
+          add:
+            items:
+            - custom
+            - ai/sidekick
+            items_more:
+            - data_loader
+            - transformer
+            - data_exporter
+            - sensor
+            - global_data_product
+            - templates/list
+            - templates/new
+            - dbt
+            - markdown
+      version: '0'
